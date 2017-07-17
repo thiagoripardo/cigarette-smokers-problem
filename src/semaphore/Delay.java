@@ -15,8 +15,8 @@ public class Delay {
 	 * Delay between zero and duration seconds.
 	 */
 	public static void delay(int duration) {
-        	int sleeptime = (int) (duration * Math.random() );
-        	try { Thread.sleep(sleeptime*1000); }
+        	int sleeptime = 1;//(int) (duration * Math.random() );
+        	try { Thread.sleep(sleeptime*1500); }
         	catch (InterruptedException e) {}
 	}	
 }
