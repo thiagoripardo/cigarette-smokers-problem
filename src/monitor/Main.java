@@ -4,12 +4,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Agent agent = new Agent();
+		AgentSmokerMonitor monitor = new AgentSmokerMonitor();
+		Agent agent = new Agent(monitor);
        
         agent.start();
-        new Smoker(agent, "Tabacco", "Smoker 1").start();
-        new Smoker(agent, "Paper", "Smoker 2").start();
-        new Smoker(agent, "Matches", "Smoker 3").start();
+        new Smoker("Smoker 1", "Tabacco", monitor).start();
+        new Smoker("Smoker 2", "Paper", monitor).start();
+        new Smoker("Smoker 3", "Matches", monitor).start();
         
 	}
 }
