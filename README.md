@@ -1,8 +1,4 @@
-# cigarette-smokers
-
-## Report
-
-[CLICK HERE TO ACCESS THE REPORT](https://drive.google.com/file/d/0B3OMCCjqeoXUQUZHLW1lQXpjRlk/view)
+# The Cigarette Smoker's Problem
 
 ## Description
 
